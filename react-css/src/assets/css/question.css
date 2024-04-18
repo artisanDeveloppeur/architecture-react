@@ -1,0 +1,42 @@
+.containerFaq {
+  background-color: #e9ecef;
+  max-width: 1000px;
+  padding: 10px 20px 20px;
+  border-radius: 12px;
+  margin: 0 auto;
+}
+
+
+
+.containerFaq h2 {
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px 0 20px 0;
+  color: grey;
+}
+
+.containerFaq button {
+  background: #e9ecef;
+  color: black;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+section div,
+section p {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin-top: 0px;
+}
+
+section p {
+  padding-bottom: 20px;
+}
+
+section>div.closed {
+  margin-bottom: 20px;
+}
